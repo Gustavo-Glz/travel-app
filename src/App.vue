@@ -1,7 +1,10 @@
-<script setup></script>
+<script setup>
+import TheHeader from "@/components/TheHeader.vue";
+</script>
 
 <template>
-  <main>
+  <TheHeader />
+  <main class="container mx-auto max-w-5xl">
     <RouterView />
   </main>
 </template>
