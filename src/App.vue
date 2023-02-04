@@ -1,8 +1,7 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
- <h1>Travel App</h1>
+  <main>
+    <RouterView />
+  </main>
 </template>
-
