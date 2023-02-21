@@ -6,7 +6,7 @@ const { destinations } = data;
 
 </script>
 <template>
-  <header class="bg-gray-700 w-full py-10">
+  <header class="bg-gray-700 w-full py-10 fixed top-0 left-0 right-0 mb-0 z-20">
     <nav class="container mx-auto max-w-6xl flex items-center gap-5 text-white font-bold">
       <RouterLink class="text-xl" to="/">Travel App</RouterLink>
       <RouterLink
